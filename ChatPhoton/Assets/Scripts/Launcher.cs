@@ -29,6 +29,8 @@ namespace com.nicknamechatapp
         {
             controlPanel.SetActive(true);
             connectingText.SetActive(false);
+            Screen.sleepTimeout = SleepTimeout.NeverSleep;
+
         }
         public void ExitTheApp()
         {
